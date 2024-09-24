@@ -1,0 +1,121 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {
+  font-family: Arial, sans-serif;
+  border:5px solid black;
+  border-radius: 1cap;
+  margin-top: 80px;
+  width:500px;
+  height:500px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt1X1rIi_om8KimzzcvvNnrkJVf2dKf_73oQ&s " );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 550px;
+  background-position-y: 159px;
+  background-size: 33% 72%;
+  background-color:blanchedalmond;
+  
+
+  
+  margin-left:550px;
+}
+
+.todo-list {
+  width: 50%;
+  margin: 40px auto;
+  color:black;
+  font-size: 15px;
+  text-align: center;
+}
+
+.todo-item {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  
+  font-size:15px;
+  /* color: red; */
+  
+  
+}
+
+/* .todo-item.completed {
+  text-decoration: line-through;
+
+} */
+
+.todo-item .checkbox {
+  margin-right: 2px;
+  margin-left:1%;
+}
+
+.filter-select {
+  display:inline-block;
+  margin-top: 20px;
+  font-size: medium;
+  background-color: cadetblue;
+  border-radius: 2px;
+  color:darkblue
+}
+#todobtn
+{
+  color:rgb(15, 5, 19);
+  /* font-size: 15px; */
+  font-weight:bolder;
+  margin-left: 2px;
+  border:2px solid black;
+  border-radius: 6px;
+  background-color:darkgray;
+}
+#removebtn
+{
+  margin-left: 10px;
+  border:2px solid black;
+  border-radius: 6px;
+  background-color:rgb(95, 187, 159);
+  font-weight:bolder;
+}
+#editbtn
+{
+  margin-left: 5px;
+  border:2px solid black;
+  border-radius: 6px;
+  background-color:rgb(164, 227, 102);
+  font-weight:bolder;
+}
+

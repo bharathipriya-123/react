@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-list {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.todo-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+}
+
+.todo-item .checkbox {
+    margin-right: 10px;
+}
+
+.filter-select {
+    margin-top: 20px;
+}
+
+
